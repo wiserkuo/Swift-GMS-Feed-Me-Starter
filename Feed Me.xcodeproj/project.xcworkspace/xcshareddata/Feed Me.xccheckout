@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EB3ED370-4571-44A9-9506-E30BF3FBA641</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Feed Me</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7687074DEBE4838EF937F73C0CFF220528FAAE13</key>
+		<string>https://github.com/wiserkuo</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Feed Me Starter/Feed Me.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7687074DEBE4838EF937F73C0CFF220528FAAE13</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wiserkuo</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7687074DEBE4838EF937F73C0CFF220528FAAE13</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7687074DEBE4838EF937F73C0CFF220528FAAE13</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Xcode6Tutorial</string>
+		</dict>
+	</array>
+</dict>
+</plist>
