@@ -17,26 +17,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HOs-PC-YoG" customClass="GMSMapView">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
-                                <color key="backgroundColor" red="0.69586489898989901" green="0.69586489898989901" blue="0.69586489898989901" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wsa-u7-hWK" userLabel="View" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.57508680555555558" green="0.57508680555555558" blue="0.57508680555555558" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_me" translatesAutoresizingMaskIntoConstraints="NO" id="Zk1-KE-lC0">
                                 <rect key="frame" x="285" y="245" width="30" height="55"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tje-BD-6qd">
+                                <rect key="frame" x="0.0" y="579" width="600" height="21"/>
+                                <color key="backgroundColor" red="0.57508680555555558" green="0.57508680555555558" blue="0.57508680555555558" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="Zk1-KE-lC0" secondAttribute="bottom" id="2Re-av-h44"/>
-                            <constraint firstItem="HOs-PC-YoG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="DrE-RY-cTu"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="HOs-PC-YoG" secondAttribute="bottom" id="JqN-nZ-pAB"/>
-                            <constraint firstItem="HOs-PC-YoG" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="Qyo-Cg-2tb"/>
-                            <constraint firstAttribute="trailing" secondItem="HOs-PC-YoG" secondAttribute="trailing" id="aGt-bX-LtR"/>
+                            <constraint firstItem="Wsa-u7-hWK" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="3Eb-lL-FlM"/>
+                            <constraint firstAttribute="trailing" secondItem="Tje-BD-6qd" secondAttribute="trailing" id="CPo-9S-Tfe"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Tje-BD-6qd" secondAttribute="bottom" id="Cqm-c3-HRC"/>
+                            <constraint firstItem="Wsa-u7-hWK" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="HVd-Gg-jw9"/>
                             <constraint firstAttribute="centerX" secondItem="Zk1-KE-lC0" secondAttribute="centerX" id="eEV-hM-eKB"/>
+                            <constraint firstItem="Tje-BD-6qd" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="lAP-Qn-d9B"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Wsa-u7-hWK" secondAttribute="bottom" id="lvR-GC-diA"/>
+                            <constraint firstAttribute="trailing" secondItem="Wsa-u7-hWK" secondAttribute="trailing" id="zZW-SN-R3R"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6Hq-pz-3QM">
                         <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="Wq7-Sb-2y4">
+                            <rect key="frame" x="180" y="7" width="240" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="Normal"/>
+                                <segment title="Satellite"/>
+                                <segment title="Hybrid"/>
+                            </segments>
+                            <connections>
+                                <action selector="mapTypeSegmentPressed:" destination="vXZ-lx-hvc" eventType="valueChanged" id="pWC-S7-7kG"/>
+                            </connections>
+                        </segmentedControl>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="Y8r-sI-zD8">
                             <connections>
                                 <segue destination="gRK-9k-5jK" kind="presentation" identifier="Types Segue" id="Glz-Sc-CwV"/>
@@ -44,14 +66,15 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="addressLabel" destination="Tje-BD-6qd" id="HbZ-0I-bXw"/>
                         <outlet property="mapCenterPinImage" destination="Zk1-KE-lC0" id="Dfo-xZ-1yc"/>
-                        <outlet property="mapView" destination="HOs-PC-YoG" id="0te-Wb-YdX"/>
+                        <outlet property="mapView" destination="Wsa-u7-hWK" id="Ebk-NI-X1X"/>
                         <outlet property="pinImageVerticalConstraint" destination="2Re-av-h44" id="KIp-HD-OAI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="975" y="803"/>
+            <point key="canvasLocation" x="992" y="671"/>
         </scene>
         <!--Choose Types-->
         <scene sceneID="gir-OY-7YJ">
@@ -110,7 +133,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8bU-Wh-YHa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="289" y="797"/>
+            <point key="canvasLocation" x="285" y="671"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bfk-ny-8Xe">

@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EB3ED370-4571-44A9-9506-E30BF3FBA641</string>
+	<string>B799B35F-44DE-487A-8F0D-0A79F127A14B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Feed Me</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>7687074DEBE4838EF937F73C0CFF220528FAAE13</key>
-		<string>https://github.com/wiserkuo</string>
+		<key>5A5854584B2A91A5CC54C22003CD9F0AF6409015</key>
+		<string>https://github.com/wiserkuo/GoogleMapSdk-Swift-Feed-Me-Starter.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Feed Me Starter/Feed Me.xcodeproj</string>
+	<string>Feed Me.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7687074DEBE4838EF937F73C0CFF220528FAAE13</key>
-		<string>../../..</string>
+		<key>5A5854584B2A91A5CC54C22003CD9F0AF6409015</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/wiserkuo</string>
+	<string>https://github.com/wiserkuo/GoogleMapSdk-Swift-Feed-Me-Starter.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7687074DEBE4838EF937F73C0CFF220528FAAE13</string>
+	<string>5A5854584B2A91A5CC54C22003CD9F0AF6409015</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7687074DEBE4838EF937F73C0CFF220528FAAE13</string>
+			<string>5A5854584B2A91A5CC54C22003CD9F0AF6409015</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Xcode6Tutorial</string>
+			<string>GoogleMapSdk-Swift-Feed-Me-Starter</string>
 		</dict>
 	</array>
 </dict>

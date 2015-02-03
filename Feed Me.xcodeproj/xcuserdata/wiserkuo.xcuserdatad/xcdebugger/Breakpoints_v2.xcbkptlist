@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed Me/Controllers/MapViewController.swift"
+            timestampString = "444674637.666271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "MapViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.pinImageVerticalConstraint.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSLayoutConstraint&gt;"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673895.844468"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.pinImageVerticalConstraint.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSLayoutConstraint&gt;"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673895.845537"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.pinImageVerticalConstraint.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.NSLayoutConstraint&gt;"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673895.845736"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.init (Feed_Me.MapViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Feed_Me.MapViewController"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673895.845967"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.init (Feed_Me.MapViewController.Type)() -&gt; Feed_Me.MapViewController"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673895.846174"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "178">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.init (Feed_Me.MapViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Feed_Me.MapViewController"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673895.84636"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed Me/Controllers/MapViewController.swift"
+            timestampString = "444674815.782337"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "reverseGeocodeCoordinate(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feed Me/Controllers/MapViewController.swift"
+            timestampString = "444674637.666271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "MapViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.mapCenterPinImage.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIImageView&gt;"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673911.848927"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.mapCenterPinImage.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIImageView&gt;"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673911.849106"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.mapCenterPinImage.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIImageView&gt;"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673911.849258"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.init (Feed_Me.MapViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Feed_Me.MapViewController"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673911.849386"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "165">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.init (Feed_Me.MapViewController.Type)() -&gt; Feed_Me.MapViewController"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673911.849516"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Feed_Me.MapViewController.init (Feed_Me.MapViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Feed_Me.MapViewController"
+                  moduleName = "Feed Me"
+                  urlString = "file:///Users/wiserkuo/Documents/Feed%20Me%20Starter/Feed%20Me/Controllers/MapViewController.swift"
+                  timestampString = "444673911.849644"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
