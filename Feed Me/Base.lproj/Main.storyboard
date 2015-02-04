@@ -47,6 +47,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="6Hq-pz-3QM">
                         <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="hsn-ae-USi">
+                            <connections>
+                                <action selector="refreshPlaces:" destination="vXZ-lx-hvc" id="PjP-iP-mg0"/>
+                            </connections>
+                        </barButtonItem>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="Wq7-Sb-2y4">
                             <rect key="frame" x="180" y="7" width="240" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

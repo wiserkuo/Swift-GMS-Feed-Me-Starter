@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D5C54541A81C94B0011810C /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C54531A81C94B0011810C /* PlaceMarker.swift */; };
 		2D748FFA1A812B4F00C4DCBA /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D748FF91A812B4F00C4DCBA /* GoogleMaps.framework */; };
 		2D748FFC1A812B8C00C4DCBA /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D748FFB1A812B8C00C4DCBA /* GoogleMaps.bundle */; };
 		2D748FFE1A812BB700C4DCBA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D748FFD1A812BB700C4DCBA /* AVFoundation.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D5C54531A81C94B0011810C /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
 		2D748FF91A812B4F00C4DCBA /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		2D748FFB1A812B8C00C4DCBA /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		2D748FFD1A812BB700C4DCBA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -179,6 +181,7 @@
 			children = (
 				B48F648F19B22F9400710BEB /* GoogleDataProvider.swift */,
 				B48F649019B22F9400710BEB /* GooglePlace.swift */,
+				2D5C54531A81C94B0011810C /* PlaceMarker.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				B48F649319B22F9400710BEB /* GooglePlace.swift in Sources */,
 				B48F648E19B22F8700710BEB /* MapViewController.swift in Sources */,
 				B48F649A19B22F9B00710BEB /* UIViewExtension.swift in Sources */,
+				2D5C54541A81C94B0011810C /* PlaceMarker.swift in Sources */,
 				B48F649C19B22FA500710BEB /* TypesTableViewController.swift in Sources */,
 				B48F649819B22F9B00710BEB /* MarkerInfoView.swift in Sources */,
 			);
