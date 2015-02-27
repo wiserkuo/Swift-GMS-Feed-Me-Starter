@@ -76,8 +76,8 @@ class MapViewController: UIViewController, TypesTableViewControllerDelegate , CL
       
         // 4
         if let photo = placeMarker.place.photo {
-          /*    infoView.placePhoto.image = photo
-          } else {*/
+              infoView.placePhoto.image = photo
+          } else {
           infoView.placePhoto.image = UIImage(named: "generic")
         }
       
